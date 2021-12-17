@@ -786,65 +786,20 @@
       margin: 0 auto;
     }
 
-    .gift {
+    .trunk {
       position: absolute;
       width: 50px;
       height: 30px;
       margin: 5px;
-      background-color: #ffc0cb;
-      border: 1px dotted #42161e;
-      z-index: 20;
-      box-shadow: 1px -1px 2px #f5b0bc, 2px -2px 2px #e89daa, 3px -3px 2px #da8a98, 4px -4px 2px #ce7a89, 5px -5px 2px #bb6676, 6px -6px 2px #af5969, 7px -7px 2px #a04a5a, 8px -8px 2px #943e4e, 9px -9px 2px #803442, 10px -10px 2px #6b2834, 11px -11px 2px #541e28, 12px -12px 2px #42161e;
-    }
-
-    .g1 {
-      left: -10px;
+      background-color: #825534;
+      /* border: 1px dotted #42161e; */
+      z-index: -10;
+      box-shadow: 0px 0px 1px #98623c, 1px -1px 2px #764c2e, 2px -2px 2px #6e462a, 
+      3px -3px 2px #6e462a, 4px -4px 2px #6e462a, 5px -5px 2px #6e462a, 6px -6px 2px #6e462a, 
+      7px -7px 2px #6e462a, 8px -8px 2px #6e462a, 9px -9px 2px #573720, 10px -10px 2px #58361e, 
+      11px -11px 2px #451820, 12px -12px 2px #361118, 13px -13px 2px #000000;
+      left: 40px;
       top: 110px;
-    }
-
-    .g2 {
-      left: 33px;
-      top: 120px;
-      height: 15px;
-    }
-
-    .g3 {
-      left: 85px;
-      top: 125px;
-      width: 70px;
-      height: 22px;
-    }
-
-    .g4 {
-      left: -45px;
-      top: 130px;
-    }
-
-    .g5 {
-      left: 45px;
-      top: 130px;
-    }
-
-    .g6 {
-      left: 0px;
-      top: 130px;
-    }
-
-    .g7 {
-      left: 65px;
-      top: 130px;
-    }
-
-    .g8 {
-      left: 120px;
-      top: 150px;
-      height: 13px;
-      width: 123px;
-    }
-
-    .g9 {
-      left: 50px;
-      top: 150px;
     }
 
     .shadow {
@@ -855,6 +810,7 @@
       border-radius: 50%;
       top: 126px;
       left: -128px;
+      z-index: -20;
     }
 
     .toys {
@@ -927,7 +883,8 @@
     .toys .b12,
     .toys .b14,
     .toys .b17,
-    .toys .b20 {
+    .toys .b20,
+    .toys .b22 {
       background-color: gold;
       box-shadow: -1px -1px 6px inset #3a3101, 1px 1px 8px inset #ffffff;
     }
@@ -936,7 +893,8 @@
     .toys .b7,
     .toys .b10,
     .toys .b15,
-    .toys .b19 {
+    .toys .b19,
+    .toys .b21 {
       background-color: #ececec;
       box-shadow: -1px -1px 6px inset #615f5f, 1px 1px 8px inset #ffffff;
     }
@@ -1057,6 +1015,18 @@
       grid-area: 8 / 10;
       top: 24px;
       left: 0px;
+    }
+
+    .toys .b21 {
+        grid-area: 8 / 4;
+        top: 35px;
+        left: -20px;
+      }
+
+    .toys .b22 {
+    grid-area: 8 / 5;
+    top: 25px;
+    left: 3px;
     }
 
     .light {
@@ -1282,4 +1252,10 @@
         box-shadow: 0 0 4px 4px #fff;
       }
     }
+
+
+
+
+
+
   </style>
